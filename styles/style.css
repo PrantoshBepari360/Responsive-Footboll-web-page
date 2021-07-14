@@ -1,0 +1,161 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:ital,wght@0,700;1,400;1,500&display=swap');
+
+/* body styles */
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* start header section */
+header {
+    background-color: #2d25a0;
+    height: 500px;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.footboll-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footboll-game h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footboll-game button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 27px;
+    padding: 10px 30px;
+    background-color: #e02c6d;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.footboll-game button p {
+    margin-right: 10px;
+}
+
+.footboll-game-image img {
+    width: 556px;
+    height: 438px;
+    position: relative;
+    transition: transform 1s ease-out 0.2s;
+}
+
+.footboll-game-image img:hover {
+    transform: translate(130px, -30px) rotate(10deg);
+}
+
+/* end header section */
+
+/* Start main content section */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0 0;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-image img {
+    width: 100%;
+}
+
+.player-info h3 {
+    font-weight: 700;
+    font-size: 28px;
+    padding: 20px 0 15px;
+}
+
+.player-info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* start footer section */
+.footer-container {
+    padding: 60px 0;
+}
+
+.footer-image img {
+    width: 480px;
+    height: 110px;
+}
+
+.footer-image,
+.social-icon, 
+.copyrit {
+    display: flex;
+    justify-content: center; 
+}
+
+.social-icon {
+    padding: 40px 0;
+}
+
+#icon {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.social-icon a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #969bab;
+    background-color: #e7e7e8;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+.social-icon a:link i::before {
+    background : #bdd1df;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 15px;
+    transition: .5s;
+}
+
+.social-icon a:hover i::before {
+    background: #737373;
+    transform: rotate(360deg);
+}
+
+.copyrit p {
+    font-size: 18px;
+}
+

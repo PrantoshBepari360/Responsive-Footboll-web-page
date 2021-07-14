@@ -1,7 +1,9 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:ital,wght@0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300;1,500&display=swap');
 
-/* body styles */
+/* ------------------------
+ body styles 
+ ------------------------ */
 body,
 html {
     width: 100vw;
@@ -10,7 +12,9 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-/* start header section */
+/* ------------------------
+ start header section 
+ ------------------------ */
 header {
     background-color: #2d25a0;
     height: 500px;
@@ -62,12 +66,19 @@ header {
     transform: translate(130px, -30px) rotate(10deg);
 }
 
-/* end header section */
-
-/* Start main content section */
+/* ------------------------
+Start main content section 
+--------------------------- */
 .container {
     width: 70%;
     margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px 0 0;
 }
 
 .players {
@@ -103,7 +114,113 @@ header {
     line-height: 26px;
 }
 
-/* start footer section */
+/* --------------------
+Start articel section 
+----------------------- */
+
+.copa-america {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+}
+
+.live-match {
+    padding: 50px 0;
+}
+
+.live-match h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 30px;
+    border-top: 1px solid #c5c5c5;
+}
+
+.live-sports {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sports h3 {
+    padding: 8px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sports {
+    float: left;
+    margin-left: 30px;
+}
+
+.sports .live {
+    font-size: 24px;
+    color: #ac0f0f;
+}
+
+.sports span {
+    font-size: 24px;
+    color: #562EFF;
+}
+
+.sports {
+    width: 250px;
+    height: 150px;
+}
+
+.sports img {
+    width: 250px;
+    height: 150px;
+}
+
+
+/* -------------------
+start Registaration section 
+---------------------- */
+.reg-forms h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0;
+}
+
+.registaration {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.forms {
+    width: 400px;
+    height: 350px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.forms p {
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.forms input {
+    font-size: 18px;
+    margin-left: 90px;
+    padding: 7px;
+}
+
+.form-image {
+    width: 400px;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------------
+start footer section 
+---------------------- */
 .footer-container {
     padding: 60px 0;
 }
@@ -114,10 +231,10 @@ header {
 }
 
 .footer-image,
-.social-icon, 
+.social-icon,
 .copyrit {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .social-icon {
@@ -126,7 +243,7 @@ header {
 
 #icon {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
@@ -140,7 +257,7 @@ header {
 }
 
 .social-icon a:link i::before {
-    background : #bdd1df;
+    background: #bdd1df;
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -156,5 +273,7 @@ header {
 }
 
 .copyrit p {
-    font-size: 18px;
+    font-size: 24px;
 }
+
+

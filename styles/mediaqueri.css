@@ -1,4 +1,6 @@
-/* start header section */
+/* ------------------------
+start header section 
+------------------------ */
 @media screen and (max-width: 1680px) {
     header {
         height: 550px;
@@ -28,14 +30,16 @@
         padding: 15px 40px;
     }
 
-    /* Start main content section */
+    /* ------------------------
+    Start main content section 
+    ------------------------ */
     .container {
         width: 70%;
         margin: 0 auto;
     }
 
     .players {
-        padding: 60px 0 0;
+        padding: 40px 0 0;
         display: flex;
         justify-content: center;
     }
@@ -51,7 +55,7 @@
         font-size: 36px;
         padding: 20px 0 15px;
     }
-    
+
     .player-info p {
         font-size: 18px;
         font-weight: 400;
@@ -59,7 +63,9 @@
     }
 
 
-    /* start footer section */
+    /* ------------------------
+    start footer section 
+    ------------------------ */
     .footer-image img {
         width: 480px;
         height: 110px;
@@ -70,7 +76,9 @@
     }
 }
 
-/* start header section */
+/* ------------------------
+start header section 
+------------------------ */
 @media screen and (max-width: 1366px) {
     header {
         height: 500px;
@@ -94,7 +102,9 @@
         font-size: 56px;
     }
 
-    /* Start main content section */
+    /* ------------------------
+    Start main content section
+    ------------------------ */
     .container {
         width: 80%;
         margin: 0 auto;
@@ -123,7 +133,9 @@
     }
 }
 
-/* start header section */
+/* ------------------------
+start header section
+------------------------ */
 @media screen and (max-width: 1220px) {
     .player {
         width: 255px;
@@ -139,7 +151,9 @@
 
 }
 
-/* start header section */
+/* ------------------------
+start header section
+------------------------ */
 @media screen and (max-width: 1024px) {
     header {
         height: 420px;
@@ -164,7 +178,9 @@
         font-size: 56px;
     }
 
-    /* Start main content section */
+    /* ------------------------
+    Start main content section
+    ------------------------ */
     .container {
         width: 80%;
         margin: 0 auto;
@@ -183,7 +199,23 @@
         margin-right: 0px
     }
 
-    /* start footer section */
+    /* ------------------------
+    start Registaration form section
+    ------------------------ */
+   
+
+    .form-image {
+        width: 400px;
+        height: 350px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ------------------------
+    start footer section
+    ------------------------ */
     .footer-image img {
         width: 480px;
         height: 110px;
@@ -194,7 +226,9 @@
     }
 }
 
-/* start header section */
+/*------------------------
+ start header section
+ ------------------------ */
 @media screen and (max-width: 768px) {
     header {
         height: 420px;
@@ -219,7 +253,9 @@
         font-size: 56px;
     }
 
-    /* Start main content section */
+    /* ------------------------
+    Start main content section
+    ------------------------ */
     .container {
         width: 80%;
         margin: 0 auto;
@@ -238,7 +274,24 @@
         margin-right: 0px;
     }
 
-    /* start footer section */
+    /* ------------------------
+    Start articel section
+    ------------------------ */
+    .copa-america {
+        display: block;
+    }
+
+    .live-sports {
+        justify-content: center;
+    }
+
+    .sports {
+        margin-left: 10;
+    }
+
+    /* ------------------------
+    start footer section
+    ------------------------ */
     .footer-image img {
         width: 400px;
         height: 110px;
@@ -249,7 +302,9 @@
     }
 }
 
-/* start header section */
+/* ------------------------
+start header section
+------------------------ */
 @media screen and (max-width: 576px) {
     header {
         height: 600px;
@@ -274,7 +329,9 @@
         font-size: 56px;
     }
 
-    /* Start main content section */
+    /* ------------------------
+    Start main content section
+    ------------------------ */
     .players {
         padding: 50px 0 0;
         display: flex;
@@ -287,7 +344,44 @@
         margin-right: 0px;
     }
 
-    /* start footer section */
+    /* ------------------------
+    Start articel section 
+    ------------------------*/
+    .copa-america {
+        display: block;
+    }
+
+    .live-sports {
+        justify-content: center;
+    }
+
+    .sports {
+        margin-left: 0;
+    }
+
+      /* ------------------------
+    start Registaration form section
+    ------------------------ */
+    .registaration {
+        display: block;
+    }
+
+    .registaration {
+        width:400px;
+    }
+
+    .form-image {
+        width: 400px;
+        height: 350px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* ------------------------
+    start footer section
+    ------------------------ */
     .footer-image img {
         width: 400px;
         height: 110px;
@@ -298,7 +392,9 @@
     }
 }
 
-/* start header section */
+/* ------------------------
+start header section
+------------------------ */
 @media screen and (max-width: 375px) {
     header {
         height: 560px;
@@ -323,7 +419,9 @@
         font-size: 44px;
     }
 
-    /* Start main content section */
+    /* ------------------------
+    Start main content section 
+    ------------------------*/
     .players {
         padding: 50px 0 0;
     }
@@ -335,7 +433,24 @@
         margin-right: 0px;
     }
 
-    /* start footer section */
+    /*------------------------
+     Start articel section
+     ------------------------ */
+    .copa-america {
+        display: block;
+    }
+
+    .live-sports {
+        justify-content: center;
+    }
+
+    .sports {
+        margin-left: 0;
+    }
+
+    /* ------------------------
+    start footer section
+    ------------------------ */
     .footer-image img {
         width: 400px;
         height: 110px;

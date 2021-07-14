@@ -218,6 +218,22 @@ start Registaration section
     justify-content: center;
 }
 
+.btn {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.btn input[type="submit"] {
+    font-size: 18px;
+    margin-left: 10%;
+    padding: 10PX 30PX;
+    font-size: 18px;
+    background: linear-gradient(45deg, #ffd000, #8b8a3c);
+    border-radius: 15px;
+    border: 1px solid #555555;
+    outline: 0;
+}
+
 /* -------------------
 start footer section 
 ---------------------- */

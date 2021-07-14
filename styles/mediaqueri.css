@@ -122,7 +122,9 @@ start header section
         margin-top: 30px;
     }
 
-    /* start footer section */
+    /* ------------------------
+    start footer section
+    ------------------------ */
     .footer-image img {
         width: 480px;
         height: 110px;
@@ -198,21 +200,6 @@ start header section
         margin-top: 30px;
         margin-right: 0px
     }
-
-    /* ------------------------
-    start Registaration form section
-    ------------------------ */
-   
-
-    .form-image {
-        width: 400px;
-        height: 350px;
-        margin-top: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     /* ------------------------
     start footer section
     ------------------------ */

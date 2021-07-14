@@ -16,7 +16,7 @@
 
     .footboll-game-image img {
         width: 630px;
-        height: 480px;
+        height: 450px;
     }
 
     .footboll-game h1 {
@@ -87,7 +87,7 @@
 
     .footboll-game-image img {
         width: 556px;
-        height: 438px;
+        height: 450px;
     }
 
     .footboll-game h1 {
@@ -108,7 +108,7 @@
 
     .player {
         width: 270px;
-        height: 420px;
+        height: 450px;
         margin-top: 30px;
     }
 
@@ -178,7 +178,7 @@
 
     .player {
         width: 270px;
-        height: 440px;
+        height: 500px;
         margin-top: 30px;
         margin-right: 0px
     }
@@ -329,7 +329,8 @@
     }
 
     .player {
-        height: 360px;
+        height: 400px;
+        height: 450px;
         margin-top: 30px;
         margin-right: 0px;
     }
